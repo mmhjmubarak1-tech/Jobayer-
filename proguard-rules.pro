@@ -1,0 +1,6 @@
+-keep class com.example.remotecontrol.** { *; }
+-keep class com.sun.net.httpserver.** { *; }
+-keep class okhttp3.** { *; }
+-dontwarn okhttp3.**
+-dontwarn javax.annotation.**
+-dontwarn com.sun.net.httpserver.**
